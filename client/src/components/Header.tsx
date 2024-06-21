@@ -2,28 +2,12 @@
 function Header() {
   return (
     <div className="flex items-center fixed w-full justify-between border-b-[1px] bg-white">
-      {/* Logo Section */}
+    /* Logo Section */
       <div className="w-[90px] h-[90px] bg-black">
         <img src="/logo.png" alt="Logo" className="p-7" />
       </div>
 
-      {/* Menu Items */}
-      <div className="hidden md:flex gap-14">
-        <div className="cursor-pointer hover:underline font-medium">
-          <h2>HOME</h2>
-        </div>
-        <div className="cursor-pointer hover:underline font-medium">
-          <h2>SKILLS</h2>
-        </div>
-        <div className="cursor-pointer hover:underline font-medium">
-          <h2>PROJECTS</h2>
-        </div>
-        <div className="cursor-pointer hover:underline font-medium">
-          <h2>CONTACT</h2>
-        </div>
-      </div>
-
-      {/* Mail Icon */}
+    /*Mail icon */
       <div className="w-[90px] h-[90px] bg-red-500 flex justify-center items-center">
       <a href="mailto:itsmekaruppasamy@gmail.com" className="w-10 h-10 text-white">
         <svg
