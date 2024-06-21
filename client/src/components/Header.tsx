@@ -2,11 +2,6 @@
 function Header() {
   return (
     <div className="flex items-center fixed w-full justify-between border-b-[1px] bg-white">
-    /* Logo Section */
-      <div className="w-[90px] h-[90px] bg-black">
-        <img src="/logo.png" alt="Logo" className="p-7" />
-      </div>
-
     /*Mail icon */
       <div className="w-[90px] h-[90px] bg-red-500 flex justify-center items-center">
       <a href="mailto:itsmekaruppasamy@gmail.com" className="w-10 h-10 text-white">
