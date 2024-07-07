@@ -4,8 +4,8 @@ import './Projects.css';
 import Strings from "../Shared/Strings";
 
 const projects = [
-  { name: 'Project One', description: 'Cab Booking Web App', logo: 'favicon.png', link: '#' },
-  { name: 'Project Two', description: 'Book Store Project', logo: 'bkss.png', link: '#' },
+  { name: 'Project One', description: 'Cab Booking Web App', logo: 'favicon.png', link: 'https://cabbooking-frontend.onrender.com/' },
+  { name: 'Project Two', description: 'Book Store Project', logo: 'bkss.png', link: 'https://book-frontend-s90k.onrender.com' },
   // { name: 'Project Three', description: 'Description for project three.', logo: 'path/to/project3-logo.png', link: '#' },
   // { name: 'Project Four', description: 'Description for project four.', logo: 'path/to/project4-logo.png', link: '#' },
 ];
