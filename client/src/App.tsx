@@ -1,4 +1,3 @@
-// import "./App.css";
 // import Header from "./components/Header";
 // import SideBar from "./components/SideBar";
 // import ProfilePic from "./components/ProfilePic";
